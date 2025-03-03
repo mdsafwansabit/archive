@@ -1,28 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Imdadia-Hafezi-Quran</title>
-        <link rel="stylesheet" href="/style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imdadia Hafezi Quran</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f3f3f3, #e0e0e0);
+            text-align: center;
+        }
 
-    <body>
+        header {
+            background: #4A148C;
+            color: white;
+            padding: 15px 0;
+            font-size: 1.5rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-        <h1>Junior Archive</h1>
-        
-<a href="/"><button class="button-82-pushable" role="button">
-    <span class="button-82-shadow"></span>
-    <span class="button-82-edge"></span>
-    <span class="button-82-front text">
-      Home
-    </span>
-  </button></a>
-  
-  
-        <h2>Imdadia-Hafezi-Quran</h2>
-        <embed src="/Imdadia-Hafezi-Quran.pdf" width="80%" height="600" 
- type="application/pdf">
-    </body>
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .button {
+            display: inline-block;
+            background: #D500F9;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #AA00FF;
+            transform: scale(1.05);
+        }
+
+        embed {
+            width: 100%;
+            height: 80vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            embed {
+                height: 60vh;
+            }
+            .button {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Junior Archive</header>
+    <div class="container">
+
+      <a href="/" class="button">Home</a>
 
 
+        <h1>Imdadia Hafezi Quran</h1>
 
+
+      
+
+        <embed src="/Imdadia-Hafezi-Quran.pdf" type="application/pdf">
+    </div>
+</body>
 </html>
