@@ -52,6 +52,13 @@ header {
     transform: scale(1.05);
 }
 
+.pdf {
+    width: 100%;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 embed {
     width: 100%;
     height: 80vh;
@@ -70,6 +77,9 @@ embed {
     .button {
         font-size: 0.9rem;
         padding: 10px 20px;
+    }
+    .pdf {
+        height: 60vh;
     }
 }
 
@@ -207,8 +217,9 @@ body {
         <h1>Imdadia Hafezi Quran</h1>
 
 
-        <embed src="/Imdadia-Hafezi-Quran.pdf" width="500" height="375" 
- type="application/pdf">
+        
+
+       <iframe src="/Imdadia-Hafezi-Quran.pdf" title='Imdadia Hafezi Quran' class="pdf">
 
 
       
